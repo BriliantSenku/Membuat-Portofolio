@@ -1,0 +1,137 @@
+<Body>
+
+<!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Portofolio</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content animate">
+                <h1>Halo, Saya Web Developer</h1>
+                <p>Saya berspesialfisasi dalam membuat website yang indah dan fungsional dengan teknologi modern</p>
+                <a href="#portfolio" class="btn">Lihat Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+f    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Tentang Saya</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/46405d61-b670-47cb-8146-bae3678e6d0a.png" alt="Portrait of a professional web developer working on a modern laptop in a creative workspace" />
+                </div>
+                <div class="about-text">
+                    <h3>Web Developer & Designer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti adipisci magnam ratione laudantium dolorum harum tenetur quisquam aspernatur rerum, ipsa quaerat, enim, corporis eius blanditiis tempore. Porro sapiente ipsa officia.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem sit quasi eum itaque ratione perspiciatis eaque soluta debitis alias hic quos similique, dolor consectetur, repellendus asperiores non, voluptates quibusdam incidunt!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, doloribus quam voluptate facere neque et esse aut velit quod saepe mollitia iusto voluptatibus optio accusamus quas placeat eius error voluptas?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Portfolio Saya</h2>
+            <div class="projects">
+                <div class="project-card animate">
+                    <div class="project-image">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/d04c5457-80d1-498b-881d-108ab0879254.png" alt="Modern e-commerce website design with clean layout and product showcase" />
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Website</h3>
+                        <p>Website toko online modern dengan fitur keranjang belanja dan pembayaran terintegrasi.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate">
+                    <div class="project-image">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/45fb1412-e30c-4abc-9873-681a72b959a4.png" alt="Dashboard analytics interface with charts and data visualization components" />
+                    </div>
+                    <div class="project-info">
+                        <h3>Dashboard Analytics</h3>
+                        <p>Panel kontrol dengan visualisasi data real-time dan reporting tools.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Chart.js</span>
+                            <span class="tag">API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate">
+                    <div class="project-image">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/2ddb7edf-08e1-49f9-8a04-7dbc7d3608be.png" alt="Mobile application interface with modern design and user-friendly navigation" />
+                    </div>
+                    <div class="project-info">
+                        <h3>Mobile App UI</h3>
+                        <p>Desain antarmuka mobile application dengan focus pada user experience.</p>
+                        <div class="project-tags">
+                            <span class="tag">UI/UX</span>
+                            <span class="tag">Figma</span>
+                            <span class="tag">Prototype</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Hubungi Saya</h2>
+            <div class="contact-form animate">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nama</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>© 2024 Portfolio. All rights reserved.</p>
+                <ul class="social-links">
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</Body>
